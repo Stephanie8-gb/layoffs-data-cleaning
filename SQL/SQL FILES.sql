@@ -133,7 +133,8 @@ ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
 
-
+SELECT DISTINCT company
+FROM layoffs_staging2;
 
 
 
